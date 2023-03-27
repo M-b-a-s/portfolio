@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Mbas Ernest</title>
     <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/portfolio/img/logo.svg" type="image/x-icon">
 
     <!-- ICON SCOUT CDN -->
     <link
@@ -14,17 +16,103 @@
     />
   </head>
   <body>
-    <div class="container about-container">
-      <span class="pic"><img src="/portfolio/img/me.png" alt="" /></span>
-      <div class="about">
-        <h3>Ikwukala-Mbas Ifechimenim</h3>
-        <small>Full Stack Developer || Pianist</small>
+    <!-- NavBar -->
+    <nav>
+      <div class="container navbar-container">
+        <div class="logo">
+          <a href="#"><img src="/portfolio/img/logo.svg" alt=""></a>
+          <a href="#"><h3>Mbas</h3></a>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="/portfolio/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="">Portfolio</a>
+          </li>
+        </ul>
+        <div class="contact" id="contact">
+          <a>Contact</a>
+          <i class="uil uil-angle-right"></i>
+        </div>
       </div>
-      <span class="about-text"
-        >Software Developer, Piano Player and Tech enthusiast! I love fiding
-        ways to automate our daily lives and make things easier. Always on the
-        lookout for new projects and new challenges</span
-      >
+    </nav>
+    <!-- NavBar ends -->
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+      <a href="#" id="close-menu-toggle"
+        ><i class="uil uil-multiply close"></i
+      ></a>
+      <form action="">
+        <div class="form-name">
+          <input
+            type="text"
+            name="first name"
+            placeholder="First Name"
+            required
+          />
+          <input
+            type="text"
+            name="last name"
+            placeholder="Last Name"
+            required
+          />
+        </div>
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter Your Email Address"
+          required
+        />
+        <textarea
+          name="message"
+          rows="7"
+          placeholder="Message"
+          required
+        ></textarea>
+        <a href="" class="btn submit-btn">Send Message</a>
+      </form>
     </div>
+    <!-- Sidebar ends -->
+
+    <!-- About -->
+    <main>
+      <div class="container about-container">
+        <div class="about">
+          <h3>Ikwukala-Mbas Ifechimenim</h3>
+          <small>Full Stack Developer || Pianist</small>
+        </div>
+        <span class="about-text"
+          >Software Developer, Piano Player and Tech enthusiast! I love finding
+          ways to automate our daily lives and make things easier. Always on the
+          lookout for new projects and new challenges.</span
+        >
+        <img class="bg-print" src="/portfolio/img/fingerprint.svg" alt="">
+        <h1 class="tag">ab<b>o</b>ut</h1>
+      </div>
+    </main>
+    
+
+    <!-- footer -->
+    <footer>
+      <div class="container footer-container">
+        <a href="https://github.com/M-b-a-s"
+          ><img src="/portfolio/img/github.svg" alt=""
+        /></a>
+        <a href="https://www.linkedin.com/in/ifechimenim/"
+          ><img src="/portfolio/img/linkedin.svg" alt=""
+        /></a>
+        <a href=""><img src="/portfolio/img/web.svg" alt="" /></a>
+      </div>
+    </footer>
+
+    <script src="/portfolio/app.js"></script>
   </body>
 </html>
