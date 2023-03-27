@@ -1,6 +1,6 @@
 // DOM Elements
 
-const openSidebar = document.getElementById("menu-toggle"),
+const openSidebar = document.getElementById("contact"),
   sidebar = document.getElementById("sidebar"),
   closeSidebar = document.getElementById("close-menu-toggle");
 

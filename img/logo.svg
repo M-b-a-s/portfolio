@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48.52" height="30.207" viewBox="0 0 48.52 30.207">
+  <g id="Group_24" data-name="Group 24" transform="translate(-120.48 -274.296)">
+    <line id="Line_12" data-name="Line 12" x2="20.701" transform="translate(148.299 284.963)" fill="none" stroke="#fcfcfc" stroke-width="3"/>
+    <line id="Line_15" data-name="Line 15" x2="21.884" y2="0.296" transform="translate(120.5 293.835)" fill="none" stroke="#fcfcfc" stroke-width="3"/>
+    <line id="Line_16" data-name="Line 16" x2="24.841" transform="translate(128.189 303.003)" fill="none" stroke="#fcfcfc" stroke-width="3"/>
+    <line id="Line_17" data-name="Line 17" x2="24.841" transform="translate(135.878 275.796)" fill="none" stroke="#fcfcfc" stroke-width="3"/>
+    <line id="Line_13" data-name="Line 13" y2="18.335" transform="translate(148.89 275.5)" fill="none" stroke="#fcfcfc" stroke-width="3"/>
+    <g id="Group_23" data-name="Group 23" transform="translate(141.615 284.963)">
+      <line id="Line_14" data-name="Line 14" y2="18.335" transform="translate(0 18.335) rotate(180)" fill="none" stroke="#fcfcfc" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

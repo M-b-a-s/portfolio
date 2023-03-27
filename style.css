@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
 
 * {
   margin: 0;
@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   overflow: hidden;
 }
 
@@ -25,7 +25,7 @@ b {
   color: #dfa622;
 }
 
-h4  {
+h4 {
   color: #fcfcfc;
 }
 
@@ -39,10 +39,10 @@ img {
   margin: 0 4rem;
 }
 
-a, i{
+a,
+i {
   color: #fcfcfc;
 }
-
 
 /* Navbar */
 nav {
@@ -59,20 +59,26 @@ nav {
   position: relative;
 }
 
-.menu {
-  position: absolute;
-  font-size: 3rem;
-  top: 10px;
-  left: -50px;
+.logo {
+  width: 40px;
   animation: gelatine 400ms linear;
   z-index: 100;
 }
 
 @keyframes gelatine {
-  from, to { transform: scale(1, 1); }
-  25% { transform: scale(0.9, 1.1); }
-  50% { transform: scale(1.1, 0.9); }
-  75% { transform: scale(0.95, 1.05); }
+  from,
+  to {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(0.9, 1.1);
+  }
+  50% {
+    transform: scale(1.1, 0.9);
+  }
+  75% {
+    transform: scale(0.95, 1.05);
+  }
 }
 
 .nav-menu {
@@ -97,6 +103,7 @@ nav {
 
 .contact:hover {
   background: #dfa62200;
+  cursor: pointer;
 }
 
 /* hero page */
@@ -120,7 +127,7 @@ section {
 
 .content {
   display: grid;
-  grid-template-columns:  4fr 1fr;
+  grid-template-columns: 4fr 1fr;
   align-items: center;
   padding: 5rem 0;
 }
@@ -142,7 +149,6 @@ section {
   text-align: right;
 }
 
-
 /* sidebar */
 .sidebar {
   background: #dfa622c7;
@@ -156,7 +162,6 @@ section {
   flex-direction: column;
   align-items: center;
   padding: 4rem 1rem 0 4rem;
-  transition: all 400ms ease-in;
 }
 
 .close {
@@ -166,24 +171,47 @@ section {
   background: #fcfcfc;
   color: #303030;
   padding: 0.7rem;
-  box-shadow: 0 3px 7px #000000;
+  box-shadow: 0 3px 7px #000;
   z-index: 100;
 }
-
-.sidebar img {
-  width: 150px;
-  border: 3px solid white;
-  border-radius: 50%;
-  filter: grayscale(100%);
+.sidebar form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin-right: 2rem;
+  margin-top: 5rem;
 }
 
-.about {
-  margin: 1rem 0;
+.form-name {
+  display: flex;
+  gap: 0.2rem;
 }
 
-.about-text {
-  font-size: 0.7rem;
-  line-height: 1.6;
+input[type="text"] {
+  width: 50%;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1rem;
+  background: #fcfcfc;
+  color: #323232;
+  border: none;
+}
+
+.submit-btn {
+  width: max-content;
+  cursor: pointer;
+  margin-top: 1rem;
+  background: #303030;
+  padding: 0.9rem 1.4rem;
+  box-shadow: 0 3px 8px #292727;
+}
+
+.submit-btn:hover {
+  background: #fcfcfc;
+  color: #303030;
 }
 
 /* footer */
