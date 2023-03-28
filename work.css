@@ -1,0 +1,56 @@
+body {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.tag {
+    position: fixed;
+    left: 4rem;
+    top: 6rem;
+    font-size: 80px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    opacity: .1;
+    color: #fcfcfc;
+}
+
+/* works section */
+
+.works {
+    background: transparent;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    gap: 2rem;
+    color: #fcfcfc;
+    position: fixed;
+    margin: 5rem 0 0 12rem;
+}
+
+.work {
+    cursor: pointer;
+}
+
+.work small{
+    font-size: 0.6rem;
+}
+
+.active {
+    color: #dfa62271;
+}
+
+/* footer */
+footer{
+    position: fixed;
+    bottom: -30px;
+    left: 30%;
+    background: transparent;
+}
+
+.work-container-2 {
+    background: #dfa622;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
